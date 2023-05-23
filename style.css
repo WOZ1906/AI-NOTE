@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+ background-color: #9DB2BF;   
+ height: 100vh;
+ width: 100%;
+ font-family: 'Roboto', sans-serif;
+ color: #000;
+ display: flex;
+ justify-content: center;
+}
+
+nav {
+    height: 3.3rem;
+    background-color: #27374D;
+    /* border: 1px blue solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    /* border-radius: 5px; */
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    transition: .3s;
+}
+.logo {
+    color: rgb(146, 49, 13);
+}
+
+.container {
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.menu ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: .3s;
+}
+
+h1:hover, .menu ul li a:hover{
+    color:  rgb(146, 49, 13);
+}
+section {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.title {
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.1;
+    color: #000;
+    font-weight: 600;
+}
+
+.sb-note ul {
+    padding-left: 2.5rem;
+}
+
+.sub_title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: rgb(146, 49, 13);;
+}
+
+.sentence {
+    padding-top: 1.2rem;
+    padding-left: .5rem;
+}
